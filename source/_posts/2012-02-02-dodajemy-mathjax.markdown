@@ -8,13 +8,17 @@ categories: [mathjax, tex, math notation]
 
 1\. Dopisujemy do *custom/head.html*:
 
-    <script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% codeblock lang:html %}
+<script src="https://d3eoax9i5htok0.cloudfront.net/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+{% endcodeblock %}
 
 2\. Wzory wystawione wpisujemy tak:
 
-    <div>
-    $$ \int f(x)\,dx = \infty $$
-    </div>
+{% codeblock lang:html %}
+<div>
+$$ \int f(x)\,dx = \infty $$
+</div>
+{% endcodeblock %}
 
 Oto rezultat:
 
