@@ -39,14 +39,14 @@ Zobacz też [Configuration Objects](http://www.mathjax.org/docs/1.1/options/inde
 
 ```html
 <div class=math>
-\int f(x)\,dx = \infty
+\int\! f(x)\,dx \lt \infty
 </div>
 ```
 
 Oto rezultat:
 
 <div class=math>
-\int f(x)\,dx = \infty
+\int\! f(x)\,dx \lt \infty
 </div>
 
 3\. Wzory w akapicie wpisujemy tak:
@@ -55,13 +55,17 @@ Oto rezultat:
 Euler formula: $e^{i\pi} + 1 = 0$.
 ```
 
-<p>Oto rezultat: Euler formula: $e^{i\pi} + 1 = 0$.</p>
+Oto rezultat:
+
+<p>Euler formula: $e^{i\pi} + 1 = 0$.</p>
 
 
-4\. [Supported LaTeX commands](http://www.mathjax.org/docs/1.1/tex.html#supported-latex-commands).
+4\. Nie każde polecenia LaTeX-a jest poprawnie renderowane przez MathJax.
+ Lista poleceń poprawnie interpretowanych jest tutaj:
+[Supported LaTeX commands](http://www.mathjax.org/docs/1.1/tex.html#supported-latex-commands).
 
 
-# Web Equation
+## Web Equation
 
 Co to jest? Wchodzimy na stronę
 [Web Equation](http://webdemo.visionobjects.com/equation.html?locale=default)
