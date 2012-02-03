@@ -2,4 +2,25 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  extensions: ["jsMath2jax.js"],
+  tex2jax: {
+    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+    displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+    processEscapes: true
+  },
+
+  "HTML-CSS": { scale: 110 },
+
+  displayAlign: "left",
+  displayIndent: "2em",
+
+  styles: {
+    ".MathJax_MathML": { "color": "#A00" },
+    ".MathJax_Display": { "color": "#A00" },
+    ".MathJax": { "color": "#A00" }
+  }
+});
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
