@@ -72,6 +72,7 @@ Co to jest? Wchodzimy na stronę
 i wszystko jasne!
 
 
-## LaTeX
+## Wspólnie tworzymy dokument LaTeX-owy
 
-* [ShareLaTeX](https://www.sharelatex.com)
+Rejestrujemy się na stronie [ShareLaTeX](https://www.sharelatex.com)
+i do dzieła!
