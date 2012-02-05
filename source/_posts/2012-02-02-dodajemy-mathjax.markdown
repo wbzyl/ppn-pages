@@ -71,8 +71,5 @@ Co to jest? Wchodzimy na stronę
 [Web Equation](http://webdemo.visionobjects.com/equation.html?locale=default)
 i wszystko jasne!
 
-
-## Wspólnie tworzymy dokument LaTeX-owy
-
-Rejestrujemy się na stronie [ShareLaTeX](https://www.sharelatex.com)
-i do dzieła!
+Więcej wzorów jest na portalu [MathJax](http://www.mathjax.org/)
+w dziale [TeX Samples](http://www.mathjax.org/demos/tex-samples/).
