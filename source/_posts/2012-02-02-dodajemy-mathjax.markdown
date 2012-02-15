@@ -8,29 +8,27 @@ categories: [mathjax, tex, math notation]
 
 1\. Dopisujemy do *source/_includes/custom/head.html*:
 
-```html source/_includes/custom/head.html
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  extensions: ["jsMath2jax.js"],
-  tex2jax: {
-    inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
-    displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
-    processEscapes: true
-  },
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      extensions: ["jsMath2jax.js"],
+      tex2jax: {
+        inlineMath: [ ['$', '$'], ['\\(', '\\)'] ],
+        displayMath: [ ['$$', '$$'], ["\\[", "\\]"] ],
+        processEscapes: true
+      },
 
-  "HTML-CSS": { scale: 105 },
+      "HTML-CSS": { scale: 105 },
 
-  displayAlign: "left",
-  displayIndent: "2em",
+      displayAlign: "left",
+      displayIndent: "2em",
 
-  styles: {
-    ".MathJax_Display": { "color": "#A00" },
-    ".MathJax": { "color": "#A00" }
-  }
-});
-</script>
-<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-```
+      styles: {
+        ".MathJax_Display": { "color": "#A00" },
+        ".MathJax": { "color": "#A00" }
+      }
+    });
+    </script>
+    <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
 
 Zobacz też [Configuration Objects](http://www.mathjax.org/docs/1.1/options/index.html).
 
